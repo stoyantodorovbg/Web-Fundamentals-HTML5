@@ -1,0 +1,61 @@
+Lab: HTML and CSS Overview
+Problems for exercises and homework for the “HTML and CSS” course @ SoftUni. Submit your solutions in the SoftUni judge system at https://judge.softuni.bg/Contests/391/Lab-HTML-and-CSS-Overview .
+1.	Welcome to HTML
+Create a Web Page like the following.
+ 
+Create "welcome.html"
+Constraints
+•	Title: Welcome
+•	<strong> tag for bold text
+•	<p> tag for paragraph
+2.	Fruits
+Create a Web Page like the following.
+ 
+Create "fruits.html"
+Constraints
+•	Titile: Fruits
+•	<h1> tag for heading
+•	<img> tag for images
+Hints
+Use:
+•	 use 3 paragraphs, each holding 5 images
+3.	Wiki Page
+Create a Web Page like the following.
+ 
+ 
+Create file: "wiki-page"
+Constraints
+•	Title: The Brown Bear
+o	<h1> for heading
+•	Hyperlink: https://en.wikipedia.org/wiki/Brown_bear
+•	Text: use paragraph
+•	List: use ordered list and unordered list
+•	Image: bear.jpg
+4.	To Do List
+Create a Web Page like the following
+ 
+Create two files: "to-do-list.html" and "to-do-list.css"
+Constraints
+•	<div> with class="my-list" as container
+o	Background color: #f7f381
+o	Padding: 8px 24px;
+o	Width: 500px;
+o	Text size: 30px
+o	Border: 1px solid #f7f381;
+o	Background Color: #f7f381;
+o	box-shadow: 0 0 10px 2px #333333
+•	<ol>
+o	Margin 12px
+•	<p>
+o	Center the text
+Hints
+•	Center the container
+•	Heading: use <h1>
+•	Date: use <p> + center it
+•	List: use <ol>
+5.	HTML Lists
+Create a Web Page like the following
+ 
+Create file: "html-lists.html"
+Hints
+Use: <ol>, <ul> and <li> and <span> for List Item 1, List item 2 and List Item 3
