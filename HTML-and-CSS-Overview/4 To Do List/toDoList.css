@@ -1,16 +1,16 @@
-.myList {
-    background-color: #f7f381;
+.my-list {
+    margin: auto;
     padding: 8px 24px;
     width: 500px;
     text-size: 300px;
     border: 1px solid #f7f381;
-    background-color: #f7f381;
+    background-color: rgb(247, 243, 129);
     box-shadow: 0 0 10px 2px #333333;
 }
-.myList ol {
+.my-list ol {
     margin: 12px;
 }
 
-.myList p {
+.my-list p {
     text-align: center;
 }
