@@ -1,0 +1,8 @@
+table, th, td {
+    border: 1px solid;
+    color: #000000;
+}
+
+tr.first {
+    font-weight: bold;
+}
