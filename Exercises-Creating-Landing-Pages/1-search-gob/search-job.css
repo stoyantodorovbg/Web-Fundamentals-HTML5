@@ -1,0 +1,97 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+nav {
+    width: 90%;
+    height: 30%;
+    background-color: #384452;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    padding: 0;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4%;
+}
+
+nav ul li:hover {
+    background-color: #3bbc96;
+    color: #fff;
+}
+
+nav ul li a {
+    color: #8baec2;
+    font-family: FontAwesome, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+li:first-child a::before {
+    content: "\f002";
+}
+
+li:nth-child(2) a::before {
+    content: "\f02c";
+}
+
+li:nth-child(3) a::before {
+    content: "\f041";
+}
+
+li:nth-child(4) a::before {
+    content: '\f007';
+}
+
+form {
+    width: 90%;
+    height: 30%;
+    background-color: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+}
+
+label {
+    display: inline-block;
+    width: 20%;
+    padding: 3% 0 0 3%;
+}
+
+label span {
+    color: #384452;
+    font-weight: bold;
+    font-family: FontAwesome, sans-serif;
+    font-size: 14px;
+
+}
+
+input.data {
+    margin-top: 9%;
+    width: 80%;
+    height: 35px;
+    padding-left: 5%;
+    font-size: 12px;
+    border: 1px solid #dcdcdc;
+}
+
+button.submit {
+    margin-left: 3%;
+    width: 17%;
+    padding-left: 0;
+    background-color: #3bbc96;
+    height: 35px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: FontAwesome, sans-serif;
+    color: #fff;
+}

@@ -1,0 +1,321 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+
+    background-image: url("img/header-bg.png");
+    background-color: #3c3f49;
+    background-blend-mode: overlay;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header nav ul {
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+header nav ul li {
+    margin-top: 2%;
+    margin-right: 2%;
+    display: inline-block;
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+header nav ul li:hover {
+    color: #fb6b17;
+}
+
+header nav ul li:first-child {
+    float: left;
+}
+header h2 {
+    text-align: left;
+    margin-left: 15%;
+    margin-top: 30%;
+    width: 45%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: normal;
+    display: inline-block;
+
+}
+
+div.headingIcon {
+    color: #fff;
+    display: inline-block;
+    float: right;
+    padding-right: 27%;
+    margin-top: 30%;
+    vertical-align: top;
+}
+
+header section {
+    display: inline-block;
+    width: 20%;
+    color: #fff;
+    margin-left: 4.4%;
+    font-size: 12px;
+    margin-bottom: 5%;
+    margin-top: 20%;
+}
+
+main article section {
+    display: inline-block;
+    width: 20%;
+    float: left;
+    margin-left: 15%;
+    margin-top: 15%;
+    text-align: right;
+
+}
+
+main article section h2 {
+    font-size: 16px;
+}
+
+main article section.article {
+    display: inline-block;
+    width: 20%;
+    float: left;
+    margin-top: 10%;
+    font-size: 12px;
+    margin-left: 7%;
+    padding-left: 0;
+
+}
+
+main article p.author {
+    margin-bottom: 5%;
+}
+
+main article p.add {
+    font-weight: bold;
+}
+
+main article img {
+    width: 20%;
+    margin-top: 8%;
+    margin-left: 3%;
+    z-index: 1;
+    position: absolute;
+}
+
+main article div.opacity {
+    display: inline-block;
+    float: right;
+    width: 19.5%;
+    height: 80%;
+    background-color: #f27447;
+    z-index: 2;
+    position: absolute;
+    opacity: 0.5;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 13%;
+
+}
+
+section.schedule {
+    display: inline-block;
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #3e3c4a;
+    padding-bottom: 3%;
+}
+
+section.schedule h2 {
+    color: #fff;
+    font-size: 12px;
+    width: 25%;
+    margin-left: 8%;
+}
+
+section.schedule ul {
+    list-style: none;
+    margin-left: 6%;
+}
+
+section.schedule ul li {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+section.schedule ul li span.time {
+    color: #fff;
+    font-size: 10px;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+section.schedule ul li span.action {
+    color: #5b677d;
+    font-size: 9px;
+}
+
+section.schedule ul li div.iconFrame {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #fa6a2e;
+    text-align: center;
+}
+
+section.schedule ul li div.iconFrame i {
+    color: #fff;
+    margin-top: 7px;
+}
+
+section.speakers {
+    width: 77.7%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    float: left;
+    border: 2px solid #737373;
+    padding-left: 12%;
+    padding-bottom: 5%;
+}
+
+section.speakers h2 {
+    margin-top: 4%;
+    width: 20%;
+    font-size: 14px;
+    display: inline-block;
+}
+
+section.speakers p {
+    margin-top: 5%;
+    display: inline-block;
+    float: right;
+    margin-right: 20%;
+    font-size: 10px;
+    width:40%;
+}
+
+section.speakers section {
+    width: 25%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 5%;
+    box-shadow: 4px 6px 22px 0px rgba(0,0,0,0.75);
+}
+
+section.speakers section p.name {
+    display: inline-block;
+    width: 70%;
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+section.speakers section p.position {
+    display: inline-block;
+    width: 70%;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fbb192;
+}
+
+section.speakers section img {
+    width: 100%;
+}
+
+section.specialEvents {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    float: left;
+    background-color: #3c3f4a;
+
+}
+
+section.specialEvents div.frame {
+    border: 1px solid #fff;
+    text-align: center;
+    margin: 7% 12% 7% 12%;
+    color: #fff;
+}
+
+section.specialEvents div.frame h2 {
+    text-transform: uppercase;
+    margin-top: 9%;
+}
+
+section.specialEvents div.frame p {
+    font-size: 10px;
+    width: 34%;
+    margin-left: 33%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+section.specialEvents div.frame form {
+    margin-bottom: 5%;
+}
+
+section.specialEvents div.frame form input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ff6f18;
+    color: #fff;
+}
+
+section.specialEvents div.frame form input::placeholder {
+    color: #fff;
+}
+
+section.specialEvents div.frame form input.submit {
+    border: none;
+    background: #fc691e;
+    margin-left: 4%;
+    border-radius: 30px;
+    font-size: 12px;
+    width: 15%;
+    height: 25px;
+}
+
+section.specialEvents div.frame form input.submit:hover {
+    background-color: #333;
+}
+
+footer {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    float: left;
+    background-color: #282a3a;
+}
+
+footer p.left {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 5%;
+    display: inline-block;
+    margin-top: 3%;
+}
+
+footer p.right {
+    display: inline-block;
+    float: right;
+    width: 25%;
+    color: #6c6d71;
+    text-transform: uppercase;
+    margin-right: 2%;
+
+}
