@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+body {
+    width: 1000px;
+    color: #778495;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+header.main {
+    font-family: Vollkorn, sans-serif;
+    text-align: center;
+}
+
+main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    vertical-align: bottom;
+    margin-right: 2%;
+}
+
+article main {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 93%;
+    height: 300%;
+}
+
+article header.article {
+    width: 100%;
+    height: 40px;
+    background-color: #ebeff2;
+    text-align: center;
+    padding-top: 18px;
+}
+
+article header.article h5 {
+    font-family: Vollkorn, sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+article main p.price {
+    font-family: Vollkorn, sans-serif;
+    text-align: center;
+    font-size: 33px;
+}
+
+article main p.data {
+    border-bottom: 1px solid #778495;
+    margin-right: 0;
+}
+
+article a button {
+    margin-bottom: 5%;
+    width: 90%;
+    height: 30%;
+    background-color: #ddd;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+article:hover button, article:hover header.article{
+    background-color: #65d3e2;
+}
+
+article:hover p.price {
+    color: #65d3e2;
+}
