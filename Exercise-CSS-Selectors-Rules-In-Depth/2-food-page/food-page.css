@@ -25,7 +25,7 @@ header h1 {
 
 
 div.content {
-    width: 650px;
+    width: 55%;
     margin-left: 130px;
     display: inline-block;
 }
@@ -35,23 +35,25 @@ div.content h1 {
 }
 
 div.content p {
-    font-size: 15px;
+    margin-top: 0;
+    font-size: 12px;
     padding-bottom: 0;
-    width: 650px;
+    width: 90%;
 }
 
 div.content img {
-    width: 650px;
+    width: 90%;
     padding-top: 0;
 }
 
 div.content button {
-    width: 120px;
-    height: 35px;
+    width: 20%;
+    height: 20px;
     background: none;
     border-radius: 30px;
     border: 1px solid #ED6868;
     color: #EE5151;
+    font-size: 10px;
 }
 
 div.content button:hover {
@@ -60,7 +62,8 @@ div.content button:hover {
 }
 
 aside {
-    display: inline;
+    width: 30%;
+    display: inline-block;
     float: right;
 }
 
@@ -69,12 +72,13 @@ aside h1 {
 }
 
 aside p {
-    width: 350px;
-    font-size: 18px;
-    padding-bottom: 20px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    width: 90%;
+    font-size: 14px;
 }
 
 aside img {
-    width: 350px;
+    width: 90%;
 }
 

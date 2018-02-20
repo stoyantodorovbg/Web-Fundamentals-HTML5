@@ -75,7 +75,7 @@ aside.right {
 main header{
     font-family: Comfortaa, sans-serif;
     font-size: 28px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 main {
@@ -89,13 +89,14 @@ main header span {
 main h5 {
     text-transform: capitalize;
     margin-bottom: 1%;
-    margin-top: 7%;
+    margin-top: 4%;
+    font-size: 10px;
 }
 
 main p {
     text-transform: uppercase;
-    font-size: 12px;
-    margin-bottom: 5%;
+    font-size: 10px;
+    margin-bottom: 3%;
 }
 
 main article {
@@ -105,17 +106,76 @@ main article {
 }
 
 main article img {
+    margin-top: 30%;
     width: 100%;
     z-index: -1;
-
 }
 
 main article div.container {
     z-index: -1;
 }
 
+main article div.status.rented:before {
+    content: " ";
+}
+
 main article div.status {
+    text-align: center;
     z-index: 2;
     margin-left: -10%;
-
+    display: inline-block;
+    width: 40%;
+    border-radius: 30px;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    background-color: #68BC69;
 }
+
+main article div.status.rented {
+    background-color: #b8c5cc;
+}
+
+main article div.status.draft {
+    background-color: #91a5af;
+}
+
+article p {
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #878c8d;
+}
+
+article.rented {
+    opacity: 0.8;
+    width: 28%;
+    z-index: -1;
+}
+
+aside.right {
+    position: relative;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+aside.right button {
+    vertical-align: top;
+    background-color: #ff7739;
+    width: 80%;
+    height: 10%;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+}
+
+aside.right button:hover {
+    border: 1px solid #ff7739;
+    color: #ff7739;
+    background-color: #fff;
+}
+
+
