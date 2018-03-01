@@ -1,0 +1,180 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+
+body {
+    font-family: Lato, sans-serif;
+    width: 1920px;
+}
+
+header {
+    background-image: url("images/background.jpg");
+    height: 900px;
+}
+
+div.logo {
+    display: inline-block;
+}
+
+div.logo img {
+    width: 200px;
+    margin-left: 120%;
+    margin-top: 15px;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+    margin-right: 15%;
+}
+
+header nav ul {
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 12px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+header h1 {
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    margin-top: 16%;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+body > main > div.offer > h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+body > main > div.offer > h3 {
+    text-align: center;
+    color: #9a9a9a;
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+div.offer {
+    text-align: center;
+    background: #f5f5f5;
+    padding-bottom: 80px;
+    padding-top: 60px;
+}
+
+div.offer section {
+    display: inline-block;
+    width: 25%;
+    margin: 15px;
+    border-radius: 7px;
+    background: #fff;
+}
+
+div.offer section img {
+    width: 100%;
+}
+
+div.offer section h4 {
+    display: inline-block;
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px;
+
+}
+
+div.offer section div.price {
+    display: inline-block;
+    float: right;
+    margin: 30px;
+    font-size: 30px;
+}
+
+div.reviews {
+    text-align: center;
+}
+
+body > main > div.reviews > h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+body > main > div.reviews > h3 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 22px;
+    color: #9a9a9a;
+    margin-bottom: 40px;
+}
+
+div.reviews section {
+    display: inline-block;
+    width: 25%;
+    margin: 15px;
+    border-radius: 7px;
+    background: #fff;
+}
+
+div.reviews section img {
+    border-radius: 100%;
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+div.reviews section p.name {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+div.reviews section p.comment {
+    color: #b4b4b4;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+footer p {
+    display: inline-block;
+    margin-left: 10%;
+    color: #afafaf;
+}
+
+footer nav {
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+    color: #afafaf;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer nav ul li {
+    display: inline-block;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #afafaf;
+}

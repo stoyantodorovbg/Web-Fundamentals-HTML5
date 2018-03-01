@@ -1,0 +1,122 @@
+@media only screen and (max-width: 481px) {
+    .travel-title-container {
+        width: 100%;
+    }
+
+    body > main > section.travel-section > div {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    body > main > section.benefits-section > div {
+        flex-direction: column;
+    }
+
+    body > header > div.header-wrapper > div.logo-image-container {
+        display: block;
+        background-color: black;
+        text-align: center;
+    }
+
+    body > header > div.header-wrapper {
+        padding: 0;
+    }
+
+    body > header > div.header-wrapper > div.top-button-container > button {
+        display: none;
+    }
+
+    body > header > div.header-title-container > h1 {
+        font-size: 1.5em;
+    }
+
+    body > header > div.header-title-container > h2 {
+        display: none;
+    }
+
+    body > main > section.introduction-section > div > h2 {
+        font-size: 1.5em;
+    }
+
+    body > main > section.introduction-section > div {
+        padding-top: 60px;
+    }
+
+    body > main > section.introduction-section > div > h3 {
+        font-size: 0.63em;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        font-weight: normal;
+    }
+
+    body > main > section.benefits-section > h2 {
+        font-size: 1.7em;
+    }
+
+    body > main > section.benefits-section > div > div > h2 {
+        font-size: 1.2em;
+    }
+
+    body > main > section.benefits-section > div > div > p {
+        font-size: 0.63em;
+    }
+
+    body > main > section.travel-section > div {
+        padding-top: 90px;
+    }
+
+    body > main > section.travel-section > div > h2 {
+        font-size: 1.3em;
+    }
+
+    body > main > section.travel-section > div > h3 {
+        font-weight: normal;
+        font-size: 0.63em;
+        margin-bottom: 30px;
+    }
+
+    body > main > section.travel-section > div > div > button {
+        width: 120px;
+        font-size: 0.6em;
+        border: 1px solid white;
+        padding: 7px 5px 7px 5px;
+    }
+
+    body > footer {
+        text-align: center;
+        height: 130px;
+    }
+
+    body > footer > div > div > a img {
+        width: 100px;
+    }
+
+    body > footer > div > div > a {
+        margin-left: 0;
+    }
+
+   .footer-list {
+       float: none;
+   }
+
+    body > footer > div > ul {
+        margin-top: 20px;
+    }
+
+    body > footer {
+        padding: 0;
+    }
+
+    .benefits-title {
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+
+    body > main > section.benefits-section {
+        padding-top: 30px;
+    }
+
+}

@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Lato;
+    src: url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+div.container {
+    display: flex;
+}
+
+div.left {
+    width: 70%;
+    padding: 30px;
+}
+
+div.left h1 {
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+
+div.left p {
+    color: #989593;
+    font-size: 11px;
+}
+
+label {
+    color: #989593;
+}
+
+div.textField {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+input.text {
+    display: block;
+    width: 95%;
+    height: 25px;
+    border: 1px solid #dadada;
+    margin-top: 5px;
+}
+
+label.text {
+    width: 50%;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+label.textarea {
+    font-size: 11px;
+}
+
+textarea {
+    display: block;
+    width: 96.5%;
+    border: 1px solid #dadada;
+    height: 80px;
+    margin-top: 5px;
+}
+
+input.submit {
+    margin-top: 15px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: #eb7820;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+div.right {
+    width: 40%;
+    padding-left: 7%;
+}
+
+div.right h2 {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 7px;
+    width: 60%;
+}
+
+body div div.right section i {
+    color: #00a2b9;
+}
+
+div.icon {
+    display: flex;
+    vertical-align: top;
+
+}
+
+div.data {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+section div div p{
+    color: #8e969e;
+    font-size: 12px;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 35px;
+}
