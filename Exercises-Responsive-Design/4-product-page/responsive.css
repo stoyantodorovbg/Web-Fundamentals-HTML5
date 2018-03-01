@@ -1,0 +1,94 @@
+@media screen and (max-width: 640px) {
+    .wrap{
+        width:100%;
+        text-align: center;
+
+    }
+
+    div #header-bottom-area,
+    div #header-top-area h2,
+    #products-liked-list > div > ul > li:nth-child(2),
+    #products-liked-list > div > ul > li:nth-child(5),
+    #products-suggestions-list > div > ul > li:nth-child(2),
+    #products-suggestions-list > div > ul > li:nth-child(3){
+        display: none;
+    }
+
+    div #header-middle-area {
+        display: block;
+        margin-top: 40px;
+        border-top: 1px solid #c3c7c8;
+        border-bottom: 1px solid #c3c7c8;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        text-align: left;
+    }
+
+    #header-top-area > h1 {
+        padding-top: 0;
+    }
+
+    #product-menu {
+        display: block;
+        border-bottom: 1px solid #c3c7c8;
+        width: 100%;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    #product-menu:hover ul.submenu {
+        display: block;
+
+    }
+
+    main {
+        margin-top: 30px;
+    }
+
+    footer {
+        background-color: black;
+    }
+
+    div.email-newsletter {
+        background-color: black;
+        display: block;
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    div.email-newsletter span {
+        display: block;
+    }
+
+    div.copyright {
+        background-color: black;
+        display: block;
+        width: 100%;
+        text-align: center;
+        border: none;
+        padding-top: 7px;
+        padding-bottom: 15px;
+    }
+
+    div.share {
+        text-align: center;
+        width: 100%;
+    }
+
+    div.share strong {
+        display: inline-block;
+        color: white;
+    }
+
+    div.share a {
+        display: inline-block;
+        color: white;
+        padding-top: 18px;
+    }
+
+    div.share a.tag {
+        padding-top: 18px;
+        vertical-align: top;
+    }
+}

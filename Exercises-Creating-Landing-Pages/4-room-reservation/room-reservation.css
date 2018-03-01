@@ -1,0 +1,100 @@
+body {
+    background-color: #ebebeb;
+    margin-top: 0;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+main h1 {
+    width: 90%;
+    height: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #f1f1f1;
+    border-bottom: 1px dashed #dcdcdc;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: #51b0e9;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+main h2 {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 90%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+p.data {
+    margin-left: 50px;
+    width: 60%;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+form.search label p {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+input.search {
+    display: inline-block;
+}
+form.search img {
+    display: inline;
+    width: 20px;
+}
+
+form.data {
+    border-top: 1px dashed #dcdcdc;
+    display: block;
+    margin-top: 50px;
+    width: 90%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+form.data label.personal {
+    display: inline-block;
+    float: right;
+}
+
+form.data label.reservation {
+    display: inline-block;
+    float: right;
+}
+
+form.data label.personal p {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+form.data label {
+    display: block;
+    margin-top: 7px;
+    border: 1px solid #d2d2d2;
+    line-height: 20px;
+    padding-left: 5px;
+
+}
+
+form.data label.reservation {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    float: right;
+}
+
+form.data label.reservation label.sub {
+    display: inline-block;
+}

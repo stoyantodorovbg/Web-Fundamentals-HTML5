@@ -31,11 +31,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code-mesh-conference.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="code-mesh-conference.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-code-mesh-conference/code-mesh-conference.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="265">
               <caret line="312" column="16" lean-forward="true" selection-start-line="312" selection-start-column="16" selection-end-line="312" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3-product-form/product-form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product-form.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3-product-form/product-form.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="64" column="15" lean-forward="false" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="room-reservation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4-room-reservation/room-reservation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="room-reservation.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4-room-reservation/room-reservation.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -75,6 +115,10 @@
         <option value="$PROJECT_DIR$/1-search-gob/search-job.html" />
         <option value="$PROJECT_DIR$/2-code-mesh-conference/code-mesh-conference.html" />
         <option value="$PROJECT_DIR$/2-code-mesh-conference/code-mesh-conference.css" />
+        <option value="$PROJECT_DIR$/3-product-form/product-form.html" />
+        <option value="$PROJECT_DIR$/3-product-form/product-form.css" />
+        <option value="$PROJECT_DIR$/4-room-reservation/room-reservation.html" />
+        <option value="$PROJECT_DIR$/4-room-reservation/room-reservation.css" />
       </list>
     </option>
   </component>
@@ -117,18 +161,13 @@
             <path>
               <item name="Exercises-Creating-Landing-Pages" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercises-Creating-Landing-Pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="1-search-gob" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="4-room-reservation" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Exercises-Creating-Landing-Pages" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercises-Creating-Landing-Pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="2-code-mesh-conference" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Exercises-Creating-Landing-Pages" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises-Creating-Landing-Pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="2-code-mesh-conference" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="4-room-reservation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -139,7 +178,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
-    <property name="last_opened_file_path" value="C:/xampp/php/php.exe" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/ConferenceManagement" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -147,6 +186,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programming\Web-Fundamentals\Web-Fundamentals-HTML5\Exercises-Creating-Landing-Pages\4-room-reservation\images" />
+      <recent name="C:\Programming\Web-Fundamentals\Web-Fundamentals-HTML5\Exercises-Creating-Landing-Pages\3-product-form" />
       <recent name="C:\Programming\Web-Fundamentals\Web-Fundamentals-HTML5\Exercises-Creating-Landing-Pages\2-code-mesh-conference" />
     </key>
   </component>
@@ -172,17 +213,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519140589133</updated>
-      <workItem from="1519140609698" duration="24925000" />
+      <workItem from="1519140609698" duration="35413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24925000" />
+    <option name="totallyTimeSpent" value="35413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="766" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -245,6 +286,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="312" column="16" lean-forward="true" selection-start-line="312" selection-start-column="16" selection-end-line="312" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-product-form/product-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-product-form/product-form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="64" column="15" lean-forward="false" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-room-reservation/room-reservation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4-room-reservation/room-reservation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="62" column="24" lean-forward="false" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
           <folding />
         </state>
       </provider>
